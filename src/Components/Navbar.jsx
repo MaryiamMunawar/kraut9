@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../assets/menu.svg';
-import Rectangle from '../assets/rectangle.png';
+import Rectangle from '../assets/Rectangle.png';
 
 function Navbar() {
   return (
