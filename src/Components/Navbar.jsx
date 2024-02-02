@@ -5,17 +5,13 @@ import Rectangle from '../assets/Rectangle.png';
 function Navbar() {
   return (
     <div className='grid grid-cols-3 justify-between items-center px-4'>
-      <div className='pt-[38px]'>
-        <img src={Menu} alt="" />
+      <div className='flex items-center pt-[38px] pl-4'>
+        <img src={Menu} alt="Menu" />
       </div>
-      <div className='pt-[10px]'>
-        <img src={Rectangle} alt="" />
-      </div>
-      <div className='pt-[41px] flex justify-center items-center'>
-        <div>
-          <span className='font-extrabold text-[#28C6F3]'>Mint</span>
-        </div>
-      </div>
+      <span className='flex items-center justify-center pt-[10px]'>
+        <img src={Rectangle} alt="Rectangle" />
+      </span>
+      <span className='flex items-center justify-end pt-[41px]  font-extrabold text-[#28C6F3]'>Mint</span>
     </div>
   );
 }
